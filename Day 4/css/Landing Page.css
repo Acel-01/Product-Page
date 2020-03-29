@@ -1,0 +1,176 @@
+body{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.hero-img{
+    background-image: url("../img/samsung_s20.jpg");
+    height: 75%;
+    top: 3%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.hero-text{
+    font-size: xx-large;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: -40%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+.pr{
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+  
+}
+.pr:hover{
+    background-color: #ddd;
+    color: black;
+}
+.pre{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    color: #ddd;
+    border-radius: 10px;
+}
+.pre:hover{
+    background-color: #ddd;
+    color: white;
+}
+.okay{
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: 40px;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.ri{
+    float: right;
+}
+#aa{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.specs{
+    margin-top: 7%;
+}
+#vv{
+    margin-left: 50px;
+}
+
+footer{
+    margin-right: 20px;
+    margin-top: 20px;
+    float: right;
+    margin-bottom: 10px;
+
+}
+h4{
+    margin-left: 5px;
+}
+@media only screen and (min-width: 769px){
+    body{
+        
+        margin: 0;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .hero-img{
+        background-image: url("../img/samsung_s20.jpg");
+        height: 75%;
+        top: 7%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    ul{
+        font-size: small;
+    }
+    .hero-text{
+        font-size: medium;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        right: -40%;
+        transform: translate(-50%,-50%);
+        color: white;
+    }
+    .pr{
+        text-align: center;
+        text-decoration: none;
+        padding: 10px;
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+      
+    }
+    .pr:hover{
+        background-color: #ddd;
+        color: black;
+    }
+    .pre{
+        text-decoration: none;
+        padding: 10px;
+        background-color: white;
+        color: #ddd;
+        border-radius: 10px;
+    }
+    .pre:hover{
+        background-color: #ddd;
+        color: white;
+    }
+    .okay{
+        list-style-type: none;
+        margin: 0;
+        margin-bottom: 40px;
+        padding: 0;
+        overflow: hidden;
+        background-color: black;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    .ri{
+        float: right;
+    }
+    #aa{
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    .specs{
+        margin-top: 7%;
+    }
+    #vv{
+        margin-left: 50px;
+    }
+    
+    footer{
+        margin-right: 20px;
+        margin-top: 20px;
+        float: right;
+        margin-bottom: 10px;
+    }
+    h4{
+        margin-left: 5px;
+    }
+
+}
